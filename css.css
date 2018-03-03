@@ -749,9 +749,12 @@ div.message > div.msg > div.from > span.un {
 }
 /*########## [chat] ##########*/
 }
-#chat-messages .cm:not(.log):hover {
-	transform: translate(5px, -5px);
-	background-color: rgba(0, 20, 61, 0.60);
+#user-lists .list .user,
+#chat-messages .cm{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
 }
 #chat .message,#chat .mention,#chat .skip,#chat .moderation,#chat .emote,#chat .update,#chat .welcome {
     background-color: rgba(0, 0, 0, 0.40);
