@@ -434,6 +434,73 @@
 #the-user-profile .experience .bar .value, #footer-user .info .meta .bar .value {
 	text-shadow: 0 0 3px black;
 }
+/*--[animations]--*/
+#user-rollover {
+   background: rgba(0, 0, 0, 0.56) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.18);
+}
+#user-rollover.expand.chat .arrow-down {
+   border-left: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover:not(.chat) .arrow-down {
+   border-top: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover .action.skip:hover{
+    -webkit-box-shadow:     inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -moz-box-shadow:        inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -o-box-shadow:          inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    box-shadow:             inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+}
+#user-rollover .actions .action:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+#user-rollover .actions .action.mod-staff:hover {
+    background: rgba(24, 0, 27, 0.4);
+}
+#user-rollover .actions .action.ignore:hover,
+#user-rollover .actions .action.mod-ban:hover,
+#user-rollover .actions .action.mod-mute:hover {
+    background: rgba(28, 0, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover{
+	background: rgba(68, 45, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
+}
+
+#user-rollover.id-4412452 .thumb {
+    border-color: rgb(36, 175, 130) !important;
+}
+#user-rollover.id-4412452 .meta .username,
+#user-rollover.id-4412452.is-staff .info .role span {
+    color: #049eff;
+}
+#user-rollover .meta.online .status i {
+	 border: 2px solid !important;
+	 -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.online .status span {
+    -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.subscriber .status span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover.id-4412452 .info .value {
+    color: #C9AD0B;
+   text-shadow: 0 0 10px #E59900;
+}
 /*--[toast-notifications]--*/
 .notification {
 	border-radius: 20px;
