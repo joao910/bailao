@@ -1,4 +1,4 @@
-@import url:("https://rawgit.com/joao910/teste/master/badges.css");
+@import url:("https://rawgit.com/joao910/bailao/master/badges.css");
 
 @keyfra	mes fadein {
 	from {opacity: 0;}
@@ -502,10 +502,14 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
     color: #C9AD0B;
    text-shadow: 0 0 10px #E59900;
 }
-/*--[dj-button]--*
 
-#dj-button .left{
+/*        DJ BUTTON */
+
+#dj-button .left .icon{
+     left: 100px;
+     height: 61px;
      border-radius: 50px;
+     width: 230px;
      transition: 0.3s;
          background: rgba(40,44,53,1) !important;
 }
@@ -517,14 +521,14 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 }
 #dj-button.is-full .left, #dj-button.is-locked .left {
     background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-   #9c5def
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)), 
 }
 #dj-button .left {
     background:
     linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
    #9c5def
 }
+//*--[dj-button]--*
 
 /*--[toast-notifications]--*/
 
