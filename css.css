@@ -502,20 +502,6 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
     color: #C9AD0B;
    text-shadow: 0 0 10px #E59900;
 }
-/*--[toast-notifications]--*/
-
-.notification {
-	border-radius: 20px;
-	background: rgb(152, 50, 189);
-}
-#toast-notifications .left {
-	border-radius: 20px 0 0 20px;
-	background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(0,0,0,0)) !important;
-}
-#toast-notifications .right {
-	border-radius: 0 20px 20px 0;
-	background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0)) !important;
-}
 /*--[dj-button]--*
 
 #dj-button .left{
@@ -540,6 +526,20 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
    #9c5def
 }
 
+/*--[toast-notifications]--*/
+
+.notification {
+	border-radius: 20px;
+	background: rgb(152, 50, 189);
+}
+#toast-notifications .left {
+	border-radius: 20px 0 0 20px;
+	background: linear-gradient(135deg, rgba(255,255,255,0.4), rgba(0,0,0,0)) !important;
+}
+#toast-notifications .right {
+	border-radius: 0 20px 20px 0;
+	background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0)) !important;
+}
 /* Icon fix :before */
 
 div.message > div.msg > div.from > span.un {
