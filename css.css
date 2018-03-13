@@ -522,12 +522,7 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 	border-radius: 50px 0 0 50px;
 	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(266, 82%, 65%));
 	box-shadow: 0 0 10px #000;
-
-#dj-button:hover .left {
-	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(284, 58%, 47%));
-	border-radius: 50px 0 0 50px;
 	
-
 	/*--[vote]--*/
 
 #vote {
