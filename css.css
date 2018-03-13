@@ -516,31 +516,13 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 	border-radius: 0 20px 20px 0;
 	background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0)) !important;
 }
-         /*--[dj-button]--*/
 
- #dj-button:hover {
-	 background: linear-gradient(hsla(210,10%,50%,0.5), hsla(210,10%,40%,0.5));
-	 
-#dj-button:hover .left {
-	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(266, 82%, 65%));
+       /*--[dj-button]--*/
 
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-	background: linear-gradient(135deg, hsla(15,80%,60%,0.6), 
-hsla(15,80%,50%,0.6));
-}
-
- #dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
-	 background: linear-gradient(135deg, hsla(15,80%,60%,0.9), 
-hsla(15,80%,50%,0.9));
-}
-	
-#dj-button.is-locked .left, #dj-button.is-full .left {
-	background: linear-gradient(135deg, hsla(0,0%,10%,0.6), hsla(0,0%,5%,0.6));
-}
-
-#dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
-	background: linear-gradient(135deg, hsla(0,0%,10%,0.9), hsla(0,0%,5%,0.9));
-}
+#dj-button {
+ 	border-radius: 50px;
+ 	background: linear-gradient(hsla(210,10%,50%,0.3), hsla(210,10%,40%,0.3));
+ 	box-shadow: 0 0 10px #000;
 	
 	/*--[vote]--*/
 
