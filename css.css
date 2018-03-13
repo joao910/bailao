@@ -524,9 +524,6 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
     width: 230px;
     transition: 0.3s;
 }
-#dj-button .left .icon{
-    left: 100px;
-}
 #dj-button:not(.is-locked):hover .left {
     top: -53px;
 }
@@ -536,7 +533,6 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 #dj-button.is-full .left, #dj-button.is-locked .left {
     background:
     linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-    #383838
 }
 #dj-button.is-leave .left, #dj-button.is-quit .left {
     background:
@@ -547,6 +543,7 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
     background:
     linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
     #0BFFC2
+}    
 
 /* Icon fix :before */
 
