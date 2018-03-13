@@ -510,29 +510,6 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 hsla(210,10%,40%,0.3));
 	box-shadow: 0 0 10px #000;
 }
-#dj-button .left .icon{
-     left: 100px;
-     height: 61px;
-     border-radius: 50px;
-     width: 100px;
-     transition: 0.3s;
-         background: rgba(40,44,53,1) !important;
-}
-#dj-button:not(.is-locked):hover .left {
-    top: -53px;
-}
-#dj-button.is-locked {
-    cursor: no-drop;
-}
-#dj-button.is-full .left, #dj-button.is-locked .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)), 
-}
-#dj-button .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
-   #9c5def
-}
 //*--[dj-button]--*
 
 /*--[toast-notifications]--*/
