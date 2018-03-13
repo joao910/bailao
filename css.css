@@ -546,10 +546,6 @@ div.message > div.msg > div.from > span.un {
 #meh i.icon {
     background-image: url("https://nightbloo.github.io/plug/icons/meh.png");
 }
-#dj-button span {
-    width: 223px !important;
-    margin-left: 5px;
-}
 #dj-button .left .icon{
     left: 100px;
     height: 61px; 
