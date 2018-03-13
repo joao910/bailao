@@ -1,6 +1,6 @@
 @import url:("https://rawgit.com/joao910/teste/master/badges.css");
 
-@keyframes fadein {
+@keyfra	mes fadein {
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
@@ -435,6 +435,7 @@
 	text-shadow: 0 0 3px black;
 }
 /*--[animations]--*/
+
 #user-rollover {
    background: rgba(0, 0, 0, 0.56) !important;
 }
@@ -502,6 +503,7 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
    text-shadow: 0 0 10px #E59900;
 }
 /*--[toast-notifications]--*/
+
 .notification {
 	border-radius: 20px;
 	background: rgb(152, 50, 189);
@@ -515,10 +517,12 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 	background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0)) !important;
 }
 /*--[dj-button]--*
+
 #dj-button .left{
 border-radius: 50px;
 transition: 0.3s;
    background: rgba(40,44,53,1) !important;
+}
 #dj-button:not(.is-locked):hover .left {
     top: -53px;
 }
