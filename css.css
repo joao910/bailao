@@ -518,38 +518,45 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 }
          /*--[dj-button]--*/
 
-#dj-button .left {
- 	border-radius: 50px;
-	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(266, 82%, 65%));
-	box-shadow: 0 0 10px #000;
+#dj-button {
+    width: 230px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
-#dj-button:hover .left {
-	border-radius: 50px;
-	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(284, 58%, 47%));
-	box-shadow: 0 0 10px #000;
+#dj-button span {
+    width: 223px !important;
+    margin-left: 5px;
+}
+#dj-button .left{
+    height: 61px;
+    border-radius: 4px;
+    width: 230px;
+    transition: 0.3s;
+}
+#dj-button .left .icon{
+    left: 100px;
+}
+#dj-button:not(.is-locked):hover .left {
+    top: -53px;
+}
+#dj-button.is-locked {
+    cursor: no-drop;
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #383838
 }
 #dj-button.is-leave .left, #dj-button.is-quit .left {
-	border-radius: 50px;
-	background: linear-gradient(135deg, hsla(15,80%,60%,0.6),
-hsla(15,80%,50%,0.6));
-	box-shadow: 0 0 10px #000;
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #C4041B
 }
-#dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
-	border-radius: 50px;
-	background: linear-gradient(135deg, hsla(15,80%,60%,0.9),
-hsla(15,80%,50%,0.9));
-	box-shadow: 0 0 10px #000;
+#dj-button .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #0BFFC2
 }
-#dj-button.is-locked .left, #dj-button.is-full .left {
-	border-radius: 50px;
-	background: linear-gradient(135deg, hsla(0,0%,10%,0.6),
-hsla(0,0%,5%,0.6));
-	box-shadow: 0 0 10px #000;
-}
-#dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
-	border-radius: 50px;
-	background: linear-gradient(135deg, hsla(0,0%,10%,0.9), hsla(0,0%,5%,0.9));
-	box-shadow: 0 0 10px #000;
 	
 	/*--[vote]--*/
 
