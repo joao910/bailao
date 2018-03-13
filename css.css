@@ -554,7 +554,7 @@ div.message > div.msg > div.from > span.un {
     height: 61px;
     border-radius: 50px;
     transition: 0.3s;
-	background: rgba(40,44,53,1) !important;
+    background: rgba(40,44,53,1) !important;
 }
 #dj-button .left .icon{
     left: 100px;
