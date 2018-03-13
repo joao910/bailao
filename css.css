@@ -562,7 +562,7 @@ div.message > div.msg > div.from > span.un {
     border-radius: 50px;
     width: 230px;
     transition: 0.3s;
-    background: rgba(40,44,53,1) !important;
+    
 }
 #dj-button:not(.is-locked):hover .left {
     top: -53px;
