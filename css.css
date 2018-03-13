@@ -524,6 +524,7 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 	box-shadow: 0 0 10px #000;
 }
 #dj-button:hover .left {
+	border-radius: 50px;
 	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(284, 58%, 47%));
 }
 #dj-button.is-leave .left, #dj-button.is-quit .left {
@@ -551,7 +552,6 @@ div.message > div.msg > div.from > span.un {
     vertical-align: top;
     horizontal-align: left;
 }
-
 #woot i.icon,
 #grab i.icon,
 #meh i.icon {
@@ -559,7 +559,6 @@ div.message > div.msg > div.from > span.un {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 #woot i.icon {
     background-image: url("https://nightbloo.github.io/plug/icons/woot.png");
 }
