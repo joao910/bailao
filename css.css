@@ -569,11 +569,6 @@ div.message > div.msg > div.from > span.un {
     linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
    #9c5def
 }
-#dj-button.is-leave .left, #dj-button.is-quit .left {
-    background:
-    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
- 
-}
 #dj-button .left {
     background:
     linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
