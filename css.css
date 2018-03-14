@@ -560,10 +560,10 @@ div.message > div.msg > div.from > span.un {
  	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(284, 58%, 47%));
  }
  #dj-button.is-leave .left, #dj-button.is-quit .left {
- 	background: linear-gradient(135deg, hsla(15,80%,60%,0.6), hsl(1, 80%, 40%));
+ 	background: linear-gradient(135deg, hsl(305, 59%, 34%), hsl(305, 80%, 23%));
  }
  #dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
- 	background: linear-gradient(135deg, hsl(353, 99%, 25%), hsl(2, 80%, 37%));
+ 	background: linear-gradient(135deg, hsl(353, 99%, 21%), hsl(2, 88%, 29%));
  }
  #dj-button.is-locked .left, #dj-button.is-full .left {
  	background: linear-gradient(135deg, hsla(0,0%,10%,0.6), hsla(0,0%,5%,0.6));
