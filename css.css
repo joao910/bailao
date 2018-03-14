@@ -1318,6 +1318,10 @@ display: none;
 .id-19488358 .badge-box i.bdg {
     background-image: url("https://nightbloo.github.io/plug/custom-badges/burgerisgooo.gif");
 }
+ /*Pedro Silvaxxx */
+#user-rollover.id-28412112 .badge-box i.bdg,
+.id-28412112 .badge-box i.bdg {
+    background-image: url("https://media.giphy.com/media/OtqnLajmNXdPW/giphy.gif");
 @keyframes rainbow {
 	0% {color: #ff0000;}
 	10% {color: #ff8000;}
