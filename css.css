@@ -516,89 +516,14 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 	border-radius: 0 20px 20px 0;
 	background: linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0)) !important;
 }
-
-       /*--[dj-button]--*/
+        /*--[dj-button]--*/
 
 #dj-button {
  	border-radius: 50px;
- 	box-shadow: 0 0 10px #000;
-	
-	/*--[vote]--*/
+ 	background: linear-gradient(hsla(210,10%,50%,0.3), hsla(210,10%,40%,0.3));
+        box-shadow: 0 0 10px #000;
+}
 
-#vote {
-	box-shadow: 0 0 10px #000;
-	border-radius: 40px;
-	width: 255px !important;
-}
-#app #vote .bottom {
-	background: rgba(0,0,0,0);
-}
-#woot, #grab, #meh {
-	margin-top: 0 !important;
-}
-#vote .selected,
-#vote .selected .value {
-	font-weight: bold;
-	color: #FFF;
-}
-.pop-menu, .pop-menu .bar {
-	border-radius: 20px 20px 0 0;
-	background: transparent;
-}
-.pop-menu .bar {
-	background: linear-gradient(hsl(257, 99%, 69%), hsl(284, 58%, 47%));
-}
-.pop-menu .bar-divider {
-	background: linear-gradient(hsla(0,0%,90%,0.8), hsla(0,0%,60%,0.8));
-}
-.pop-menu .menu ul {
-	background: hsla(260,10%,7%,0.8);
-}
-.pop-menu .menu ul i + span {
-	font-weight: bold;
-}
-.pop-menu .menu ul li:hover {
-	background: linear-gradient(hsl(257, 99%, 69%), hsl(284, 58%, 47%));;
-}
-.pop-menu .menu ul .create:hover {
-	background: linear-gradient(hsl(260,40%,50%), hsl(284, 58%, 47%));
-}
-.pop-menu .menu::-webkit-scrollbar {
-	background: hsl(260,10%,20%) !important;
-	box-shadow: inset 0 0 10px #000;
-	width: 10px;
-}
-.pop-menu .menu::-webkit-scrollbar-thumb {
-	background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
-	box-shadow: inset 0 0 5px hsla(0,0%,100%,0.3);
-}
-#woot {
-	border-radius: 30px 0 0 30px;
-	background: linear-gradient(135deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-}
-#woot.selected, #woot-rs .title {
-	background: linear-gradient(135deg, hsla(90,80%,50%,0.8), hsla(90,80%,30%,0.8)) !important;
-	box-shadow: inset 0 0 10px hsl(70,100%,40%) !important;
-}
-#grab {
-	background: linear-gradient(hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-}
-#grab.selected, #grab-rs .title {
-	background: linear-gradient(hsla(270,70%,50%,0.8), hsla(265,70%,30%,0.8)) !important;
-	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
-}
-#meh {
-	background: linear-gradient(225deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
-	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
-	border-radius: 0 30px 30px 0;
-	margin-right: 0 !important;
-}
-#meh.selected, #meh-rs .title {
-	background: linear-gradient(225deg, hsla(5,80%,50%,0.8), hsla(0,80%,40%,0.8)) !important;
-	box-shadow: inset 0 0 10px hsl(15,100%,50%) !important;
-}
         /* Icon fix :before */
 	
 div.message > div.msg > div.from > span.un {
@@ -623,8 +548,109 @@ div.message > div.msg > div.from > span.un {
 #meh i.icon {
     background-image: url("https://nightbloo.github.io/plug/icons/meh.png");
 }
-	
-/*--[user-rollover]--*/
+#dj-button:hover {
+ 	background: linear-gradient(hsla(210,10%,50%,0.5), hsla(210,10%,40%,0.5));
+ }
+ #dj-button .left {
+ 	border-radius: 50px 0 0 50px;
+ 	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(266, 82%, 65%));
+ 	box-shadow: 0 0 10px #000;
+ }
+ 
+ #dj-button:hover .left {
+ 	background: linear-gradient(135deg, hsl(257, 99%, 69%), hsl(284, 58%, 47%));
+ }
+ #dj-button.is-leave .left, #dj-button.is-quit .left {
+ 	background: linear-gradient(135deg, hsla(15,80%,60%,0.6), hsla(15,80%,50%,0.6));
+ }
+ #dj-button.is-leave:hover .left, #dj-button.is-quit:hover .left {
+ 	background: linear-gradient(135deg, hsla(15,80%,60%,0.9), hsla(15,80%,50%,0.9));
+ }
+ #dj-button.is-locked .left, #dj-button.is-full .left {
+ 	background: linear-gradient(135deg, hsla(0,0%,10%,0.6), hsla(0,0%,5%,0.6));
+ }
+ #dj-button.is-locked:hover .left, #dj-button.is-full:hover .left {
+ 	background: linear-gradient(135deg, hsla(0,0%,10%,0.9), hsla(0,0%,5%,0.9));
+}
+         /*--[vote]--*/
+
+ #vote {
+ 	box-shadow: 0 0 10px #000;
+ 	border-radius: 40px;
+ 	width: 255px !important;
+ }
+ 
+ #app #vote .bottom {
+ 	background: rgba(0,0,0,0);
+ }
+ 
+ #woot, #grab, #meh {
+ 	margin-top: 0 !important;
+ }
+ #vote .selected,
+ #vote .selected .value {
+ 	font-weight: bold;
+ 	color: #FFF;
+ }
+ .pop-menu, .pop-menu .bar {
+ 	border-radius: 20px 20px 0 0;
+ 	background: transparent;
+ }
+ .pop-menu .bar {
+ 	background: linear-gradient(hsl(257, 99%, 69%), hsl(284, 58%, 47%));
+ }
+ .pop-menu .bar-divider {
+ 	background: linear-gradient(hsla(0,0%,90%,0.8), hsla(0,0%,60%,0.8));
+ }
+ .pop-menu .menu ul {
+ 	background: hsla(260,10%,7%,0.8);
+ }
+ .pop-menu .menu ul i + span {
+ 	font-weight: bold;
+ }
+ .pop-menu .menu ul li:hover {
+ 	background: linear-gradient(hsl(257, 99%, 69%), hsl(284, 58%, 47%));;
+ }
+ .pop-menu .menu ul .create:hover {
+ 	background: linear-gradient(hsl(260,40%,50%), hsl(284, 58%, 47%));
+ }
+ .pop-menu .menu::-webkit-scrollbar {
+ 	background: hsl(260,10%,20%) !important;
+ 	box-shadow: inset 0 0 10px #000;
+ 	width: 10px;
+ }
+ .pop-menu .menu::-webkit-scrollbar-thumb {
+ 	background: linear-gradient(to right, hsl(260,40%,60%), hsl(260,40%,40%));
+ 	box-shadow: inset 0 0 5px hsla(0,0%,100%,0.3);
+ }
+ #woot {
+ 	border-radius: 30px 0 0 30px;
+ 	background: linear-gradient(135deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
+ 	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+ }
+ #woot.selected, #woot-rs .title {
+ 	background: linear-gradient(135deg, hsla(90,80%,50%,0.8), hsla(90,80%,30%,0.8)) !important;
+ 	box-shadow: inset 0 0 10px hsl(70,100%,40%) !important;
+ }
+ #grab {
+ 	background: linear-gradient(hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
+ 	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+ }
+ #grab.selected, #grab-rs .title {
+ 	background: linear-gradient(hsla(270,70%,50%,0.8), hsla(265,70%,30%,0.8)) !important;
+ 	box-shadow: inset 0 0 10px hsl(280,100%,40%) !important;
+ }
+ #meh {
+ 	background: linear-gradient(225deg, hsla(0,0%,50%,0.3), hsla(0,0%,30%,0.3)) !important;
+ 	box-shadow: inset 0 0 10px hsl(0,0%,40%) !important;
+ 	border-radius: 0 30px 30px 0;
+ 	margin-right: 0 !important;
+ }
+ #meh.selected, #meh-rs .title {
+ 	background: linear-gradient(225deg, hsla(5,80%,50%,0.8), hsla(0,80%,40%,0.8)) !important;
+ 	box-shadow: inset 0 0 10px hsl(15,100%,50%) !important;
+
+        /*--[user-rollover]--*/
 	
 #user-rollover {
 	border-radius: 30px 30px 0 0;
@@ -689,7 +715,9 @@ div.message > div.msg > div.from > span.un {
 	background: radial-gradient(hsla(210,100%,30%,0.9), hsla(210,100%,20%,0.9)) !important;
 	box-shadow: inset 0 0 50px #000 !important;
 }
-/*--[playlists]--*/
+	 
+        /*--[playlists]--*/
+	 
 #media-panel #playlist-activate-button {
 	background: linear-gradient(hsl(266, 82%, 65%), hsl(284, 58%, 47%));
 	box-shadow: inset 0 0 10px 1px hsl(284, 58%, 47%);
