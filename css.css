@@ -927,7 +927,7 @@ div.message > div.msg > div.from > span.un {
 }
 /*#####[YOU]#####*/
 #chat .cm .msg .from.you .un {
-	color: #2d0303 !important;
+	color: #560f0f !important;
 }
 /*#####[BA]#####*/
 .icon-chat-ambassador + span {
