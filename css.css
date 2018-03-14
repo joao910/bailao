@@ -941,7 +941,7 @@ div.message > div.msg > div.from > span.un {
 .icon-chat-host + span,
 #user-lists .group.host ~ .user span,
 #dialog-user-role .role-menu .menu ul .host span {
-	color: #db182e !important;
+	color: #a90f0f !important;
 }
 #user-lists .group.host {
 	color: #db182e;
