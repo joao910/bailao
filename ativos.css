@@ -1,0 +1,18 @@
+       [ATIVOS]
+  
+/*Icone VIP Perfil*/
+#user-rollover.id-30962958 .meta:before{
+    content: url("https://moveitbrasil.ga/wp-content/themes/mib/images/vipicon.png");
+    top: 140px;
+    left: 109px;
+    position: absolute;
+}
+
+/*Nome VIP Perfil*/
+#user-rollover.id-4080795 .meta:after{
+    content: 'Membro ATIVO';
+    color: #e4af2e;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+}
