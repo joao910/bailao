@@ -1267,8 +1267,8 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 90px;
-    left: 90px;
+    top: 100px;
+    left: 100px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
