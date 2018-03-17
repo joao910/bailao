@@ -1261,25 +1261,6 @@ div.message > div.msg > div.from > span.un {
 display: none;
 } 
 
-  [ATIVOS]
-  
-/*Icone VIP Perfil*/
-#user-rollover.id-30962958 .meta:before{
-    content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 140px;
-    left: 109px;
-    position: absolute;
-}
-
-/*Nome VIP Perfil*/
-#user-rollover.id-30962958 .meta:after{
-    content: 'Membro ATIVO';
-    color: #e4af2e;
-    position: absolute;
-    top: 140px;
-    left: 130px;
-}
-	
 @keyframes rainbow {
 	0% {color: #ff0000;}
 	10% {color: #ff8000;}
