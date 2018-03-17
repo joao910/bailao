@@ -1267,16 +1267,16 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 110px;
-    left: 80px;
+    top: 120px;
+    left: 70px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
 #user-rollover.id-30962958 .meta:after{
-    content: 'João';
+    content: 'JOÃO';
     color: #660000;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 120px;
 }
 /*Icone VIP Lista*/
@@ -1296,7 +1296,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 100px;
+    left: 90px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
