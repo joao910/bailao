@@ -1267,7 +1267,7 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 140px;
+    top: 90px;
     left: 90px;
     position: absolute;
 }
@@ -1276,8 +1276,8 @@ display: none;
     content: 'JOÃO';
     color: #660000;
     position: absolute;
-    top: 120px;
-    left: 130px;
+    top: 110px;
+    left: 90px;
 }
 /*Icone VIP Lista*/
 #user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
