@@ -1261,21 +1261,23 @@ div.message > div.msg > div.from > span.un {
 display: none;
 }        _____________
         [MEMBROS ATIVOS]
-  
+          
+         Pamper
+
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 120px;
-    left: 90px;
+    top: 110px;
+    left: 80px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
 #user-rollover.id-30962958 .meta:after{
-    content: 'Membro Ativo';
-    color: #FFD700;
+    content: 'João';
+    color: #660000;
     position: absolute;
-    top: 120px;
-    left: 100px;
+    top: 130px;
+    left: 120px;
 }
 /*Icone VIP Lista*/
 #user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
@@ -1287,7 +1289,8 @@ display: none;
     background-position: 30px center;
     background-size: 16px auto;
     padding-top: 2px;
-}
+}      
+        3k17
 
 /*Icone VIP Perfil*/
 #user-rollover.id-29668004 .meta:before{
@@ -1314,10 +1317,36 @@ display: none;
     background-position: 30px center;
     background-size: 16px auto;
     padding-top: 2px;
+}      
+     Ballack...?
+
+/*Icone VIP Perfil*/
+#user-rollover.id-3526726 .meta:before{
+    content: url("https://i.imgur.com/CBC3KbU.png");
+    top: 120px;
+    left: 90px;
+    position: absolute;
 }
+/*Nome VIP Perfil*/
+#user-rollover.id-3526726 .meta:after{
+    content: 'Membro Ativo';
+    color: #FFD700;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+/*Icone VIP Lista*/
+#user-lists .list .fromID-3526726 .name, #user-lists .list .id-3526726 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 50px;
+    background-image: url("https://i.imgur.com/CBC3KbU.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 16px auto;
+    padding-top: 2px;
                                                                                             _______________________________________
                                                                                            [Créditos Shadow Slayer "move-it brasil"]
- 
 @keyframes rainbow {
 	0% {color: #ff0000;}
 	10% {color: #ff8000;}
