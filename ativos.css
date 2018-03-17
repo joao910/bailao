@@ -2,17 +2,28 @@
   
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
-    content: url("https://moveitbrasil.ga/wp-content/themes/mib/images/vipicon.png");
+    content: url("https://i.imgur.com/CBC3KbU.png");
     top: 140px;
     left: 109px;
     position: absolute;
 }
 
 /*Nome VIP Perfil*/
-#user-rollover.id-4080795 .meta:after{
+#user-rollover.id-30962958 .meta:after{
     content: 'Membro ATIVO';
     color: #e4af2e;
     position: absolute;
     top: 140px;
     left: 130px;
+}
+/*Icone VIP Lista*/
+#user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 50px;
+    background-image: url("https://i.imgur.com/CBC3KbU.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 16px auto;
+    padding-top: 2px;
 }
