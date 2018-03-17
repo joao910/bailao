@@ -1,5 +1,4 @@
-@import url:("https://rawgit.com/joao910/bailao/master/badges.css");
-@import url:("https://rawgit.com/joao910/bailao/master/ativos.css");
+@import url:("https://rawgit.com/joao910/bailao/master/css.css");
 
 @keyfra	mes fadein {
 	from {opacity: 0;}
@@ -1261,19 +1260,19 @@ div.message > div.msg > div.from > span.un {
 #onesignal-bell-container{
 display: none;
 }        _____________
-        [MEBROS ATIVOS]
+        [MEMBROS ATIVOS]
   
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 140px;
-    left: 109px;
+    top: 120px;
+    left: 90px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
 #user-rollover.id-30962958 .meta:after{
     content: 'Membro Ativo';
-    color: #e4f2e;
+    color: #FFD700;
     position: absolute;
     top: 120px;
     left: 120px;
@@ -1289,6 +1288,7 @@ display: none;
     background-size: 16px auto;
     padding-top: 2px;
 }
+
 /*Icone VIP Perfil*/
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
@@ -1299,7 +1299,7 @@ display: none;
 /*Nome VIP Perfil*/
 #user-rollover.id-29668004 .meta:after{
     content: 'Membro Ativo';
-    color: #e4f2e;
+    color: #FFD700;
     position: absolute;
     top: 120px;
     left: 120px;
