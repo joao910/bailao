@@ -1276,7 +1276,7 @@ display: none;
     content: 'João';
     color: #660000;
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 120px;
 }
 /*Icone VIP Lista*/
@@ -1296,7 +1296,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 90px;
+    left: 100px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
