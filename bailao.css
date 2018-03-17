@@ -1260,8 +1260,38 @@ div.message > div.msg > div.from > span.un {
 
 #onesignal-bell-container{
 display: none;
-} 
-
+}        _____________
+        [MEBROS ATIVOS]
+  
+/*Icone VIP Perfil*/
+#user-rollover.id-30962958 .meta:before{
+    content: url("https://moveitbrasil.ga/wp-content/themes/mib/images/vipicon.png");
+    top: 140px;
+    left: 109px;
+    position: absolute;
+}
+/*Nome VIP Perfil*/
+#user-rollover.id-30962958 .meta:after{
+    content: 'Membro Vip';
+    color: #e4f2e;
+    position: absolute;
+    top: 140px;
+    left: 130px;
+}
+/*Icone VIP Lista*/
+#user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
+    position: relative;
+    left: -1px;
+    padding-left: 50px;
+    background-image: url("https://moveitbrasil.ga/wp-content/themes/mib/images/vipicon.png");
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 16px auto;
+    padding-top: 2px;
+}
+                                                                                            _______________________________________
+                                                                                           [Créditos Shadow Slayer "move-it brasil"]
+ 
 @keyframes rainbow {
 	0% {color: #ff0000;}
 	10% {color: #ff8000;}
