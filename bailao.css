@@ -1306,7 +1306,7 @@ display: none;
     color: #FFD700;
     position: absolute;
     top: 120px;
-    left: 90px;
+    left: 120px;
 }
 /*Icone VIP Lista*/
 #user-lists .list .fromID-29668004 .name, #user-lists .list .id-29668004 .name {
@@ -1324,17 +1324,17 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 120px;
-    left: 80px;
+    top: 140px;
+    left: 109px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
 #user-rollover.id-3526726 .meta:after{
-    content: 'Membro Ativo';
+    content: 'Membro Vip;
     color: #FFD700;
     position: absolute;
-    top: 120px;
-    left: 120px;
+    top: 140px;
+    left: 130px;
 }
 /*Icone VIP Lista*/
 #user-lists .list .fromID-3526726 .name, #user-lists .list .id-3526726 .name {
