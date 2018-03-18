@@ -1324,13 +1324,13 @@ display: none;
 /*Icone Ativo Perfil*/
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 140px;
-    left: 109px;
+    top: 110px;
+    left: 120px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
 #user-rollover.id-3526726 .meta:after{
-    content: 'Membro Vip;
+    content: 'Membro Vip';
     color: #FFD700;
     position: absolute;
     top: 140px;
@@ -1346,8 +1346,7 @@ display: none;
     background-position: 30px center;
     background-size: 16px auto;
     padding-top: 2px;
-                                                                                            _______________________________________
-                                                                                           [Créditos Shadow Slayer "move-it brasil"]
+ 
 @keyframes rainbow {
 	0% {color: #ff0000;}
 	10% {color: #ff8000;}
@@ -1360,5 +1359,5 @@ display: none;
 	80% {color: #0000ff;}
 	90% {color: #8000ff;}
 	100% {color: #ff0080;}
-
+     }
 }
