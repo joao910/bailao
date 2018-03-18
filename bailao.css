@@ -1265,14 +1265,14 @@ display: none;
           
        Pamper
 
-/*Icone VIP Perfil*/
+/*Icone dono Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
     left: 150px;
     position: absolute;
 }
-/*Nome VIP Perfil*/
+/*Nome dono Perfil*/
 #user-rollover.id-30962958 .meta:after{
     content: 'LIDER';
     color: #660000;
@@ -1280,7 +1280,7 @@ display: none;
     top: 120px;
     left: 130px
 }
-/*Icone VIP Lista*/
+/*Icone dono Lista*/
 #user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
     position: relative;
     left: -1px;
@@ -1293,22 +1293,22 @@ display: none;
 }      
         3k17
 
-/*Icone VIP Perfil*/
+/*Icone Ativo Perfil*/
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 90px;
+    left: 100px;
     position: absolute;
 }
-/*Nome VIP Perfil*/
+/*Nome Ativo Perfil*/
 #user-rollover.id-29668004 .meta:after{
     content: 'Membro Ativo';
     color: #FFD700;
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 130px;
 }
-/*Icone VIP Lista*/
+/*Icone Ativo Lista*/
 #user-lists .list .fromID-29668004 .name, #user-lists .list .id-29668004 .name {
     position: relative;
     left: -1px;
@@ -1321,14 +1321,14 @@ display: none;
 }      
      Ballack...?
 
-/*Icone VIP Perfil*/
+/*Icone Ativo Perfil*/
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 140px;
     left: 109px;
     position: absolute;
 }
-/*Nome VIP Perfil*/
+/*Nome Ativo Perfil*/
 #user-rollover.id-3526726 .meta:after{
     content: 'Membro Vip;
     color: #FFD700;
@@ -1336,7 +1336,7 @@ display: none;
     top: 140px;
     left: 130px;
 }
-/*Icone VIP Lista*/
+/*Icone Ativo Lista*/
 #user-lists .list .fromID-3526726 .name, #user-lists .list .id-3526726 .name {
     position: relative;
     left: -1px;
