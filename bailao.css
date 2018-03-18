@@ -1268,13 +1268,13 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 110px;
-    left: 140x;
+    top: 140px;
+    left: 109px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
 #user-rollover.id-30962958 .meta:after{
-    content:'LIDER";
+    content: 'LIDER';
     color: #660000;
     position: absolute;
     top: 120px;
