@@ -219,8 +219,8 @@
 	box-shadow: inset 0 0 1px 2px hsla(0,0%,100%,0.3) !important;
 }
 #footer-user .buttons .button.inventory:hover .thumb, #video-only-dj:hover .thumb {
-	border-color: #5bf !important;
-	box-shadow: 0 0 7px #5bf !important;
+	border-color: #9f6bfd !important;
+	box-shadow: 0 0 7px #8f20a2 !important;
 }
 #footer-user .info {
 	background: linear-gradient(hsla(210,5%,10%,0.8), hsla(210,5%,5%,0.8));
@@ -325,7 +325,7 @@
 }
 #user-menu .count, .requests .count, .buttons .count, .request-count, .friends .header i {
 	background: radial-gradient(hsl(257, 99%, 69%), hsl(266, 82%, 65%)) !important;
-	box-shadow: inset 0 0 10px hsl(200,100%,50%);
+	box-shadow: inset 0 0 10px hsl(257, 99%, 69%);
 	text-shadow: 0 0 3px #000;
 }
 #user-menu .selected .count, .button:hover .count, #friends-button.selected span, #user-friends .requests.selected span, .friends .header:hover i {
@@ -713,7 +713,7 @@ div.message > div.msg > div.from > span.un {
 	box-shadow: 0 0 2px 1px #151515 !important;
 }
 #user-rollover .action:hover {
-	background: radial-gradient(hsla(210,100%,30%,0.9), hsla(210,100%,20%,0.9)) !important;
+	background: radial-gradient(hsl(306, 100%, 30%,0.9), hsl(306, 100%, 30%),0.9)) !important;
 	box-shadow: inset 0 0 50px #000 !important;
 }
 	 
@@ -729,8 +729,8 @@ div.message > div.msg > div.from > span.un {
 	box-shadow: inset 0 0 10px 1px hsl(284, 58%, 47%);
 }
 #media-panel #playlist-activate-button.active {
-	background: linear-gradient(hsl(200,100%,30%), hsl(210,100%,20%));
-	box-shadow: inset 0 0 10px 1px hsl(210,80%,30%);
+	background: linear-gradient(hsl(306, 100%, 30%), hsl(284, 58%, 47%));
+	box-shadow: inset 0 0 10px 1px hsl(284, 58%, 47%);
 	color: hsl(284, 58%, 47%) !important;
 }
 #playlist-activate-button i, #playlist-menu .row i {
@@ -744,11 +744,11 @@ div.message > div.msg > div.from > span.un {
 	cursor: default !important;
 }
 #media-panel #playlist-edit-button {
-	background: linear-gradient(hsl(200,80%,50%), hsl(200,80%,50%));
+	background: linear-gradient(hsl(306, 100%, 30%), hsl(306, 100%, 30%));
 	box-shadow: inset 0 0 10px 1px hsl(200,50%,55%);
 }
 #media-panel #playlist-edit-button:hover {
-	background: linear-gradient(hsl(200,100%,50%), hsl(170,100%,30%));
+	background: linear-gradient(hsl(306, 100%, 30%), hsl(306, 100%, 30%));
 	box-shadow: inset 0 0 10px 1px hsla(0,0%,100%,0.3);
 }
 #media-panel #playlist-shuffle-button {
@@ -888,7 +888,7 @@ div.message > div.msg > div.from > span.un {
 }
 .focused {
 	color: #EEE !important;
-	box-shadow: inset 0 0 0 1px #05F !important;
+	box-shadow: inset 0 0 0 1px #7b1c8c!important;
 	background: linear-gradient(to top, hsl(257, 99%, 69%), hsl(284, 58%, 47%)) !important;
 }
 #chat-input-field {
@@ -1115,7 +1115,7 @@ div.message > div.msg > div.from > span.un {
 #chat .cm.mention {
 	background: linear-gradient(hsla(), hsla(7)),
 	linear-gradient(to right, hsla(0,0%,0%,0), hsla(0,0%,100%,0.2)) !important;
-	box-shadow: inset 0 0 0 1px hsl(77,100%,30%);
+	box-shadow: inset 0 0 0 1px hsl();
 	border: none !important;
 }
 #chat .cm.mention .name, #chat .cm.mention .timestamp {
@@ -1269,16 +1269,16 @@ display: none;
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 140px;
+    left: 130px;
     position: absolute;
 }
 /*Nome dono Perfil*/
 #user-rollover.id-30962958 .meta:after{
-    content: 'LIDER';
+    content: 'Copyright©';
     color: #660000;
     position: absolute;
     top: 120px;
-    left: 130px
+    left: 110px
 }
 /*Icone dono Lista*/
 #user-lists .list .fromID-30962958 .name, #user-lists .list .id-30962958 .name {
@@ -1297,7 +1297,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 90px;
+    left: 109px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
@@ -1306,7 +1306,7 @@ display: none;
     color: #FFD700;
     position: absolute;
     top: 120px;
-    left: 120px;
+    left: 110px;
 }
 /*Icone Ativo Lista*/
 #user-lists .list .fromID-29668004 .name, #user-lists .list .id-29668004 .name {
@@ -1325,16 +1325,16 @@ display: none;
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 80px;
+    left: 105px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
 #user-rollover.id-3526726 .meta:after{
-    content: 'Membro Ativo';
+    content: 'Membro Raiz';
     color: #FFD700;
     position: absolute;
     top: 120px;
-    left: 140px;
+    left: 110px;
 }
 /*Icone Ativo Lista*/
 #user-lists .list .fromID-3526726 .name, #user-lists .list .id-3526726 .name {
