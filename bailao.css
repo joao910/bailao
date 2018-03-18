@@ -1268,8 +1268,8 @@ display: none;
 /*Icone VIP Perfil*/
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 80px;
-    left: 120x;
+    top: 100px;
+    left: 100x;
     position: absolute;
 }
 /*Nome VIP Perfil*/
@@ -1297,7 +1297,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 100px;
+    left: 90px;
     position: absolute;
 }
 /*Nome VIP Perfil*/
