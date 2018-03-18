@@ -1269,7 +1269,7 @@ display: none;
 #user-rollover.id-30962958 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 150px;
+    left: 140px;
     position: absolute;
 }
 /*Nome dono Perfil*/
@@ -1297,7 +1297,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 100px;
+    left: 90px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
@@ -1306,7 +1306,7 @@ display: none;
     color: #FFD700;
     position: absolute;
     top: 120px;
-    left: 130px;
+    left: 120px;
 }
 /*Icone Ativo Lista*/
 #user-lists .list .fromID-29668004 .name, #user-lists .list .id-29668004 .name {
@@ -1324,8 +1324,8 @@ display: none;
 /*Icone Ativo Perfil*/
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
-    top: 110px;
-    left: 120px;
+    top: 120px;
+    left: 9.0px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
@@ -1333,8 +1333,8 @@ display: none;
     content: 'Membro Vip';
     color: #FFD700;
     position: absolute;
-    top: 140px;
-    left: 130px;
+    top: 120px;
+    left: 120px;
 }
 /*Icone Ativo Lista*/
 #user-lists .list .fromID-3526726 .name, #user-lists .list .id-3526726 .name {
