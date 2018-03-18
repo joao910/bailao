@@ -1267,9 +1267,9 @@ display: none;
 
 /*Icone dono Perfil*/
 #user-rollover.id-30962958 .meta:before{
-    content: url("https://i.imgur.com/eu396bm.png");
+    content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 130px;
+    left: 100px;
     position: absolute;
 }
 /*Nome dono Perfil*/
@@ -1285,7 +1285,7 @@ display: none;
     position: relative;
     left: -1px;
     padding-left: 50px;
-    background-image: url("https://i.imgur.com/eu396bm.png");
+    background-image: url("https://i.imgur.com/CBC3KbU.png");
     background-repeat: no-repeat;
     background-position: 30px center;
     background-size: 16px auto;
@@ -1297,7 +1297,7 @@ display: none;
 #user-rollover.id-29668004 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 109px;
+    left: 90px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
@@ -1325,7 +1325,7 @@ display: none;
 #user-rollover.id-3526726 .meta:before{
     content: url("https://i.imgur.com/CBC3KbU.png");
     top: 120px;
-    left: 105px;
+    left: 98px;
     position: absolute;
 }
 /*Nome Ativo Perfil*/
