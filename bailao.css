@@ -1346,6 +1346,14 @@ display: none;
     background-position: 30px center;
     background-size: 16px auto;
     padding-top: 2px;
+
+/*BOT*/
+#user-rollover.id-28412112 .meta:after{
+    content: 'BOT';
+    color: #ff0000;
+    position: absolute;
+    top: 120px;
+    left: 110px;	
  
 @keyframes rainbow {
 	0% {color: #ff0000;}
