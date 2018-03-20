@@ -1349,11 +1349,11 @@ display: none;
 
 /*BOT*/
 #user-rollover.id-28412112 .meta:after{
-    content: 'BOT';
+    content: 'Membro raiz';
     color: #ff0000;
     position: absolute;
     top: 120px;
-    left: 100px;	
+    left: 110px;	
  
 @keyframes rainbow {
 	0% {color: #ff0000;}
